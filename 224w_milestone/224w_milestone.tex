@@ -142,7 +142,8 @@ As the non-graph baseline from our proposal, a window-feature XGBoost model [4] 
 
 \section{Partial Results}
 \label{sec:results}
- 
+All code and data are available \href{https://github.com/chantal8le/CS224W_milestone.git}{here}.
+
 Since the proposal, we have built a causal data pipeline and the GAT described above, constructed three of the four proposed graphs (no edges, statistical, and clinical), and compared them on the pooled split and in a first transfer experiment. Table~\ref{tab:results} compares the graphs in two regimes: trained on both hospitals (pooled), and trained on Hospital A only, with epoch and threshold selected on dev patients from Hospital A, then scored on test patients from each hospital.
  
 \begin{table}[h]
